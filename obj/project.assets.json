@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adhirajsinghbrar/Documents/Development/C#/Infonetica/WorkflowEngine.csproj",
+      "projectUniqueName": "/Users/adhirajsinghbrar/Documents/Development/C#/WorkflowEngine/WorkflowEngine.csproj",
       "projectName": "WorkflowEngine",
-      "projectPath": "/Users/adhirajsinghbrar/Documents/Development/C#/Infonetica/WorkflowEngine.csproj",
+      "projectPath": "/Users/adhirajsinghbrar/Documents/Development/C#/WorkflowEngine/WorkflowEngine.csproj",
       "packagesPath": "/Users/adhirajsinghbrar/.nuget/packages/",
-      "outputPath": "/Users/adhirajsinghbrar/Documents/Development/C#/Infonetica/obj/",
+      "outputPath": "/Users/adhirajsinghbrar/Documents/Development/C#/WorkflowEngine/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/adhirajsinghbrar/.nuget/NuGet/NuGet.Config"
