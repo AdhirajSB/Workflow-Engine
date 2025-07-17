@@ -1,0 +1,72 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/JetBrains
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# DotNet CLI artifacts
+.project/
+*.pidb
+*.pidb.meta
+*.sln.cache
+*.dbmdl
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Runtime config
+*.runtimeconfig.json
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.vspx
+*.trx
+*.testsettings
+*.vsmdi
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Static Web Assets
+**/staticwebassets/
+**/staticwebassets.build.json
+
+# Logs or dump files
+*.log
+*.bak
+*.swp
+*.swo
+
+# Global tool manifest
+.dotnet-tools.json
