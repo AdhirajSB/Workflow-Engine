@@ -1,72 +1,42 @@
-# Build folders
+# === .NET Build Output ===
 bin/
 obj/
 
-# User-specific files
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Rider/JetBrains
-.idea/
-
-# Visual Studio Code
-.vscode/
-
-# DotNet CLI artifacts
-.project/
-*.pidb
-*.pidb.meta
-*.sln.cache
-*.dbmdl
-
-# Logs
-*.log
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# Resharper
-_ReSharper*/
-*.DotSettings.user
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# Runtime config
-*.runtimeconfig.json
-
-# Test results
-TestResults/
-*.coverage
-*.coveragexml
-*.vspx
-*.trx
-*.testsettings
-*.vsmdi
-
-# NuGet
+# === NuGet Packages and Caches ===
 *.nupkg
 *.snupkg
 .nuget/
 packages/
-project.lock.json
 project.assets.json
-*.csproj.nuget.dgspec.json
+project.nuget.cache
 *.csproj.nuget.g.props
 *.csproj.nuget.g.targets
+*.csproj.nuget.dgspec.json
 
-# Static Web Assets
+# === ASP.NET Static Web Assets ===
 **/staticwebassets/
 **/staticwebassets.build.json
 
-# Logs or dump files
+# === Logs and Temporary Files ===
 *.log
+*.tmp
 *.bak
 *.swp
 *.swo
 
-# Global tool manifest
-.dotnet-tools.json
+# === User-Specific Files (Visual Studio / VSCode / JetBrains) ===
+.vscode/
+*.user
+*.suo
+.idea/
+*.sln.iml
+*.sln.docstates
+
+# === OS-Specific Files ===
+.DS_Store
+Thumbs.db
+
+# === Others ===
+*.dbmdl
+*.pdb
+*.runtimeconfig.json
