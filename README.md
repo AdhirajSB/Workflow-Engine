@@ -1,19 +1,18 @@
 # Workflow Engine
-
 Simple workflow engine for managing state transitions
 
-## What it does
+## Demo
+![Workflow Engine Running](assets/screenshot.png)
 
+## What it does
 This project let you create workflows with states and actions. you can start workflow instances and execute actions to move through different states.
 
 ## How to run
-
 1. clone this repository
 2. run `dotnet run` in terminal
 3. api will be available at `http://localhost:5000`
 
 ## Api endpoints
-
 ### Workflow definitions
 - `POST /api/workflow-definitions` - create new workflow
 - `GET /api/workflow-definitions` - get all workflows
@@ -26,7 +25,6 @@ This project let you create workflows with states and actions. you can start wor
 - `POST /api/workflow-instances/{id}/execute` - execute action
 
 ## Example workflow
-
 ```json
 {
   "name": "document approval",
@@ -43,11 +41,9 @@ This project let you create workflows with states and actions. you can start wor
 ```
 
 ## Data storage
-
 Workflow definitions and instances are saved to json files in `data/` folder.
 
 ## Testing the api
-
 You can test endpoints using curl or postman:
 
 ### Create workflow definition
@@ -93,5 +89,4 @@ curl http://localhost:5000/api/workflow-instances/your-instance-id
 ```
 
 ## Requirements
-
 - .NET 6 or higher
