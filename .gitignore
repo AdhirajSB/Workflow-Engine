@@ -1,42 +1,45 @@
-# === .NET Build Output ===
+# Build results
 bin/
 obj/
 
-# === NuGet Packages and Caches ===
-*.nupkg
-*.snupkg
-.nuget/
-packages/
-project.assets.json
-project.nuget.cache
-*.csproj.nuget.g.props
-*.csproj.nuget.g.targets
-*.csproj.nuget.dgspec.json
-
-# === ASP.NET Static Web Assets ===
-**/staticwebassets/
-**/staticwebassets.build.json
-
-# === Logs and Temporary Files ===
-*.log
-*.tmp
-*.bak
-*.swp
-*.swo
-
-# === User-Specific Files (Visual Studio / VSCode / JetBrains) ===
-.vscode/
-*.user
+# User-specific files
 *.suo
-.idea/
-*.sln.iml
+*.user
+*.userosscache
 *.sln.docstates
 
-# === OS-Specific Files ===
+# Visual Studio files
+.vs/
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# === Others ===
-*.dbmdl
-*.pdb
-*.runtimeconfig.json
+# Logs
+logs/
+*.log
+
+# Runtime files
+*.tmp
+*.temp

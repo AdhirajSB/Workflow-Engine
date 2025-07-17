@@ -1,0 +1,84 @@
+[
+  {
+    "id": "6a3968cd-810e-442f-ac99-18e62faa8ce7",
+    "name": "Document Review Workflow",
+    "states": [
+      {
+        "id": "draft",
+        "name": "Draft",
+        "isInitial": true,
+        "isFinal": false,
+        "enabled": true,
+        "description": "Document is in draft state"
+      },
+      {
+        "id": "review",
+        "name": "Under Review",
+        "isInitial": false,
+        "isFinal": false,
+        "enabled": true,
+        "description": "Document is being reviewed"
+      },
+      {
+        "id": "approved",
+        "name": "Approved",
+        "isInitial": false,
+        "isFinal": true,
+        "enabled": true,
+        "description": "Document is approved"
+      },
+      {
+        "id": "rejected",
+        "name": "Rejected",
+        "isInitial": false,
+        "isFinal": true,
+        "enabled": true,
+        "description": "Document is rejected"
+      }
+    ],
+    "actions": [
+      {
+        "id": "submit-for-review",
+        "name": "Submit for Review",
+        "enabled": true,
+        "fromStates": [
+          "draft"
+        ],
+        "toState": "review",
+        "description": "Submit document for review"
+      },
+      {
+        "id": "approve",
+        "name": "Approve",
+        "enabled": true,
+        "fromStates": [
+          "review"
+        ],
+        "toState": "approved",
+        "description": "Approve the document"
+      },
+      {
+        "id": "reject",
+        "name": "Reject",
+        "enabled": true,
+        "fromStates": [
+          "review"
+        ],
+        "toState": "rejected",
+        "description": "Reject the document"
+      },
+      {
+        "id": "send-back-to-draft",
+        "name": "Send Back to Draft",
+        "enabled": true,
+        "fromStates": [
+          "review"
+        ],
+        "toState": "draft",
+        "description": "Send document back to draft for revision"
+      }
+    ],
+    "createdAt": "2025-07-17T19:04:02.323345Z",
+    "description": "A simple document review process"
+  }
+]
